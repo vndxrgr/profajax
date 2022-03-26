@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="ajex.jpg" width="" height="213">  
+    </header>
+    
+<nav>
+    <a href="index.html">Início</a> | 
+    <a href="aulas.html">Aulas</a> |
+    <a href="musicas.html">Músicas para programação</a> |
+    <a href="contato.html">Contato</a> 
+</nav>
+
+
+<p> 
+    <h3><strong><big><em>Envie sua mensagem</em></big></strong></h3>   <hr>                     
+ Entre em contato com o prof. Ajax através de seu e-mail pessoal
+ professor.ajax@gmail.com ou preenchendo o formulário de contato. <br>
+    <br>
+    <br>
+
+
+    <form action="/formulario-contato" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome_usuario">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <div>
+            <label for="texto">Texto:</label>
+            <textarea id="texto" name="texto_usuario"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+
+
+          <style>
+            form {
+      
+      /* Ver o esboço do formulário */
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+    }
+    
+    form div + div {
+      margin-top: 1em;
+    }
+    
+    label {
+      /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+      display: inline-block;
+      width: 90px;
+      text-align: right;
+    }
+    
+    input, textarea {
+      /* 
+    Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+         Por padrão, as áreas de texto possuem a mesma fonte */
+      font: 1em sans-serif;
+    
+      /* Para dar o mesmo tamanho a todos os campos de texto*/
+      width: 300px;
+      box-sizing: border-box;
+    
+      /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+      border: 1px solid #999;
+    }
+    
+    input:focus, textarea:focus {
+      /* Para dar um pouco de destaque aos elementos ativos*/
+      border-color: #000;
+    }
+    
+    textarea {
+      /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+      vertical-align: top;
+    
+      /* Para dar espaço suficiente para digitar algum texto */
+      height: 5em;
+    }
+    
+    .button {
+      /* Para posicionar os botões na mesma posição dos campos de texto */
+      padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
+    }
+    
+    button {
+      /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+         entre os rótulos e seus campos de texto*/
+      margin-left: .5em;
+    }
+    
+        </style>
+
+
+    </form>
+<hr>
+
+
+
+<nav> 
+
+  Copyright © 2022 Professor Ajax - Todos os direitos reservados - <a href="index.html">Início</a> 
+
+
+</nav>
+
+
+
+    
+
+
+</p>
+</body>
+</html>
